@@ -97,7 +97,7 @@ class ConfigWindow:
         self.width = 600
         self.height = 500
         self.screen = pygame.display.set_mode((self.width, self.height))
-        pygame.display.set_caption("Tron - Configuration")
+        pygame.display.set_caption("LuminoRun - Configuration")
         self.font = pygame.font.SysFont("Arial", 20)
         self.title_font = pygame.font.SysFont("Arial", 32, bold=True)
         
@@ -138,7 +138,7 @@ class ConfigWindow:
             
             self.screen.fill((20, 20, 40))
             
-            title_surf = self.title_font.render("TRON GAME CONFIGURATION", True, (0, 200, 255))
+            title_surf = self.title_font.render("LuminoRun CONFIGURATION", True, (0, 200, 255))
             title_rect = title_surf.get_rect(center=(self.width // 2, 70))
             self.screen.blit(title_surf, title_rect)
             
